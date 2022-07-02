@@ -6,6 +6,8 @@ import distro
 
 if distro.name() == 'Arch Linux':
     print("Running on Arch Linux, Arpak will function normally")
+elif distro.name() == 'Archimax':
+    print("Running on Archimax, Arpak will function normally")
 else:
     print("Running on a non-Arch Linux distro, Arpak will now exit")
     sys.exit()
